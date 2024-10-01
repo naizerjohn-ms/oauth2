@@ -1,5 +1,5 @@
 module golang.org/x/oauth2
-replace golang.org/x/oauth2 => github.com/naizerjohn-ms/oauth2 v1.0.2
+replace golang.org/x/oauth2 => github.com/naizerjohn-ms/oauth2 v1.0.0
 
 go 1.18
 
