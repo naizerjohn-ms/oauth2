@@ -9,8 +9,7 @@ import (
 	"errors"
 	"time"
 
-	"golang.org/x/oauth2"
-	// "golang.org/x/oauth2/google/internal/stsexchange"
+	"github.com/naizerjohn-ms/oauth2"
 	"github.com/naizerjohn-ms/oauth2/google/internal/stsexchange"
 )
 

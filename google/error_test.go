@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"golang.org/x/oauth2"
+	"github.com/naizerjohn-ms/oauth2"
 )
 
 func TestAuthenticationError_Temporary(t *testing.T) {

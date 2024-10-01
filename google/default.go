@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/authhandler"
+	"github.com/naizerjohn-ms/oauth2"
+	"github.com/naizerjohn-ms/oauth2/authhandler"
 )
 
 const (

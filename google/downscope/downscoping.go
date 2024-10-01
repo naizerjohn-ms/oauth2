@@ -45,7 +45,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2"
+	"github.com/naizerjohn-ms/oauth2"
 )
 
 const (

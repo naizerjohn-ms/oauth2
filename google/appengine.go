@@ -9,7 +9,7 @@ import (
 	"log"
 	"sync"
 
-	"golang.org/x/oauth2"
+	"github.com/naizerjohn-ms/oauth2"
 )
 
 var logOnce sync.Once // only spam about deprecation once

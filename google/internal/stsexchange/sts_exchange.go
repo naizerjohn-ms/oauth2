@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/oauth2"
+	"github.com/naizerjohn-ms/oauth2"
 )
 
 func defaultHeader() http.Header {

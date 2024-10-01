@@ -7,7 +7,7 @@ package google
 import (
 	"errors"
 
-	"golang.org/x/oauth2"
+	"github.com/naizerjohn-ms/oauth2"
 )
 
 // AuthenticationError indicates there was an error in the authentication flow.

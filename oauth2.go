@@ -6,7 +6,7 @@
 // OAuth2 authorized and authenticated HTTP requests,
 // as specified in RFC 6749.
 // It can additionally grant authorization with Bearer JWT.
-package oauth2 // import "golang.org/x/oauth2"
+package oauth2 // import "github.com/naizerjohn-ms/oauth2"
 
 import (
 	"bytes"
@@ -18,7 +18,6 @@ import (
 	"sync"
 	"time"
 
-	// "golang.org/x/oauth2/internal"
 	"github.com/naizerjohn-ms/oauth2/internal"
 )
 

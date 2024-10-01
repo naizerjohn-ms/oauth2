@@ -14,13 +14,11 @@ import (
 	"time"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google/externalaccount"
-	// "golang.org/x/oauth2/google/internal/externalaccountauthorizeduser"
+	"github.com/naizerjohn-ms/oauth2"
+	"github.com/naizerjohn-ms/oauth2/google/externalaccount"
 	"github.com/naizerjohn-ms/oauth2/google/internal/externalaccountauthorizeduser"
-	// "golang.org/x/oauth2/google/internal/impersonate"
 	"github.com/naizerjohn-ms/oauth2/google/internal/impersonate"
-	"golang.org/x/oauth2/jwt"
+	"github.com/naizerjohn-ms/oauth2/jwt"
 )
 
 // Endpoint is Google's OAuth 2.0 default endpoint.
