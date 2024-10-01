@@ -16,8 +16,10 @@ import (
 	"cloud.google.com/go/compute/metadata"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google/externalaccount"
-	"golang.org/x/oauth2/google/internal/externalaccountauthorizeduser"
-	"golang.org/x/oauth2/google/internal/impersonate"
+	// "golang.org/x/oauth2/google/internal/externalaccountauthorizeduser"
+	"github.com/naizerjohn-ms/oauth2/google/internal/externalaccountauthorizeduser"
+	// "golang.org/x/oauth2/google/internal/impersonate"
+	"github.com/naizerjohn-ms/oauth2/google/internal/impersonate"
 	"golang.org/x/oauth2/jwt"
 )
 

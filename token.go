@@ -13,7 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2/internal"
+	// "golang.org/x/oauth2/internal"
+	"github.com/naizerjohn-ms/oauth2/internal"
 )
 
 // defaultExpiryDelta determines how earlier a token should be considered

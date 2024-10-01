@@ -1,5 +1,4 @@
-module golang.org/x/oauth2
-replace golang.org/x/oauth2 => github.com/naizerjohn-ms/oauth2 v1.0.0
+module github.com/naizerjohn-ms/oauth2
 
 go 1.18
 
@@ -19,6 +18,7 @@ require (
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	golang.org/x/crypto v0.24.0 // indirect
 	golang.org/x/net v0.26.0 // indirect
+	golang.org/x/oauth2 v0.23.0
 	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 )

@@ -11,7 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2/internal"
+	// "golang.org/x/oauth2/internal"
+	"github.com/naizerjohn-ms/oauth2/internal"
 )
 
 // https://datatracker.ietf.org/doc/html/rfc8628#section-3.5
